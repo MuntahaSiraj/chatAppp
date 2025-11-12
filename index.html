@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chat App - Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="logo">✦</div>
+      <h2>Chat App 🙋‍♀️</h2>
+
+      <input type="email" id="email" placeholder="Enter Email" />
+      <input type="password" id="password" placeholder="Enter Password" />
+
+      <div style="margin-top:10px;">
+        <button class="btn" onclick="signup()">Sign Up</button>
+        <button class="btn" onclick="login()">Login</button>
+      </div>
+
+      <div style="margin-top:10px;">
+        <button class="btn ghost" onclick="googleSignIn()">Continue with Google</button>
+      </div>
+
+      <p class="small-note">Use any email (password ≥ 6 chars). After signup/login you'll choose a username.</p>
+    </div>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
